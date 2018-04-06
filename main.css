@@ -1,0 +1,66 @@
+.summaryContainer .totalInvoice,
+.summaryContainer .totalCost,
+.summaryContainer .totalGross{
+	margin-left: 5px;
+}
+
+.container{
+    position: absolute;
+    left: 2000px;
+}
+
+#tableInvoices{
+    margin: auto;
+}
+
+#tableModal{
+    min-width: 100%;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+#tableInvoices_wrapper .dt-buttons button{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dataTables_length, .dataTables_info{
+    float: left;
+}
+
+.dataTables_filter, .dataTables_paginate{
+    float: right;
+}
+
+.dt-buttons{
+    float: left;
+    clear: both;
+}
+
+.totalInvoice, dtr-details li:nth-child(4) .dtr-data{
+	color: blue;
+}
+
+.totalCost, .cost, dtr-details li:nth-child(5) .dtr-data{
+	color: red;
+}
+
+.totalGross, .gross, dtr-details li:nth-child(6) .dtr-data{
+	color: #41bb41;
+}
+
+.date{
+    min-width: 75px;
+}
+
+@media screen and (max-width: 425px){
+    .dataTables_length, .dataTables_info{
+        float: none;
+    }
+    
+    .dataTables_filter, .dataTables_paginate{
+        float: none;
+    }
+}
